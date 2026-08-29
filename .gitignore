@@ -1,0 +1,17 @@
+# Dependencies
+docs-site/node_modules/
+
+# Build output
+docs-site/.vitepress/cache/
+docs-site/.vitepress/dist/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.log
+docs-site/copy-docs.sh
