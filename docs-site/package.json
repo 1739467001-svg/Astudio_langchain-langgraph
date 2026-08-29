@@ -1,14 +1,12 @@
 {
-  "name": "docs-site",
+  "name": "langchain-langgraph-learning-platform",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "LangChain & LangGraph 系统学习平台 - 1171+ 篇文档",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "mermaid": "^11.17.2",
     "vitepress": "^1.6.4",

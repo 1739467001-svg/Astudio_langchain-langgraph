@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+
+# 构建产物
+.vitepress/cache/
+.vitepress/dist/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+copy-docs.sh
