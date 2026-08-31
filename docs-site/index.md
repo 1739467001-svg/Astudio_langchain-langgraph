@@ -4,32 +4,42 @@ layout: home
 hero:
   name: LangChain & LangGraph
   text: 系统学习平台
-  tagline: 1243 篇文档 · 35+ 行业应用 · 从零基础到生产部署的完整知识体系
+  tagline: 1518 篇文档 · 28 阶段 155 课系统课程 · 35+ 行业应用 · 从零基础到生产部署的完整知识体系
   image:
     src: /logo.svg
     alt: LangChain & LangGraph
   actions:
     - theme: brand
-      text: 开始学习
+      text: 开始系统学习
+      link: /课程总纲
+    - theme: alt
+      text: 快速入门课程
       link: /课程/00-课程总览与学习路径
     - theme: alt
-      text: 知识库
-      link: /知识库/01-技术术语表
-    - theme: alt
-      text: 实战案例
-      link: /实战案例库/00-案例库导读
+      text: 技术参考
+      link: /技术参考/01_LangChain核心架构技术参考
 
 features:
-  - icon: 📚
-    title: 13 篇系统课程
-    details: 从零基础到实战项目，循序渐进掌握 LangChain 与 LangGraph 框架。每课配有代码示例和练习。
-    link: /课程/00-课程总览与学习路径
-    linkText: 查看课程 →
+  - icon: 🎓
+    title: 155 课系统课程
+    details: 28 个学习阶段，从 LangChain 基础到 MCP 协议、Agent 评测、多 Agent 系统、记忆系统，含课程总纲与毕业总结。
+    link: /课程总纲
+    linkText: 查看课程总纲 →
   - icon: 📖
-    title: 591 篇知识库
+    title: 591 篇工程知识库
     details: 技术细节、架构解析、代码示例、API 速查，覆盖基础到前沿的完整技术栈。
     link: /知识库/01-技术术语表
     linkText: 浏览知识库 →
+  - icon: 🔧
+    title: 109 篇技术参考
+    details: 142 篇结构化技术手册，API 参数、对比表格、部署配置，适合学习过程中随时查阅。
+    link: /技术参考/01_LangChain核心架构技术参考
+    linkText: 技术参考手册 →
+  - icon: 📋
+    title: 52 篇附录速查
+    details: 命令速查、配置模板、检查清单、代码模板库，生产运维一查即用。
+    link: /附录/附录A_环境搭建与快速入门指南
+    linkText: 附录速查 →
   - icon: 📊
     title: 562 篇图解
     details: Mermaid 流程图、架构图、决策树，可视化理解每个概念和技术关系。
@@ -40,16 +50,6 @@ features:
     details: 完整可运行的项目，覆盖客服、RAG、数据分析、多 Agent、35+ 行业场景。
     link: /实战案例库/00-案例库导读
     linkText: 浏览案例 →
-  - icon: 📝
-    title: 学习评估体系
-    details: 里程碑跟踪、知识检验题库、速查卡、四阶段学习行动计划。
-    link: /学习评估/04-学习行动计划
-    linkText: 查看计划 →
-  - icon: 🌐
-    title: 35+ 行业应用
-    details: 教育、医疗、金融、法律、制造、交通、能源、半导体、医药等垂直领域深度指南。
-    link: /知识库/522-Agent教育应用与智能学习辅导指南
-    linkText: 行业应用 →
 ---
 
 <style>
@@ -342,20 +342,20 @@ features:
 
 <div class="stats-panel">
   <div class="stat-card">
-    <div class="stat-number">13</div>
-    <div class="stat-label">学习课程</div>
+    <div class="stat-number">155</div>
+    <div class="stat-label">系统课程</div>
   </div>
   <div class="stat-card">
     <div class="stat-number">591</div>
-    <div class="stat-label">知识库</div>
+    <div class="stat-label">工程知识库</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">562</div>
-    <div class="stat-label">图解</div>
+    <div class="stat-number">109</div>
+    <div class="stat-label">技术参考</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">72</div>
-    <div class="stat-label">实战案例</div>
+    <div class="stat-number">52</div>
+    <div class="stat-label">附录速查</div>
   </div>
   <div class="stat-card">
     <div class="stat-number">35+</div>
@@ -368,28 +368,28 @@ features:
   <div class="path-steps">
     <div class="path-step">
       <div class="path-step-icon">🌱</div>
-      <div class="path-step-title">基础通关</div>
-      <div class="path-step-desc">1-2 周 · 课程 00-08</div>
+      <div class="path-step-title">基础筑基</div>
+      <div class="path-step-desc">阶段 1-9 · 33 课</div>
     </div>
     <div class="path-step">
       <div class="path-step-icon">⚙️</div>
-      <div class="path-step-title">LangGraph</div>
-      <div class="path-step-desc">1-2 周 · 课程 09-12</div>
+      <div class="path-step-title">工程进阶</div>
+      <div class="path-step-desc">阶段 10-21 · 72 课</div>
     </div>
     <div class="path-step">
       <div class="path-step-icon">🚀</div>
-      <div class="path-step-title">实战项目</div>
-      <div class="path-step-desc">2-4 周 · 做一个</div>
+      <div class="path-step-title">高级应用</div>
+      <div class="path-step-desc">阶段 22-28 · 50 课</div>
     </div>
     <div class="path-step">
       <div class="path-step-icon">🏗️</div>
-      <div class="path-step-title">生产化</div>
-      <div class="path-step-desc">按需 · 部署运维</div>
+      <div class="path-step-title">生产实战</div>
+      <div class="path-step-desc">附录速查 · 部署运维</div>
     </div>
     <div class="path-step">
       <div class="path-step-icon">🔬</div>
       <div class="path-step-title">深度探索</div>
-      <div class="path-step-desc">按需 · 前沿专题</div>
+      <div class="path-step-desc">图解 · 前沿专题</div>
     </div>
   </div>
 </div>
@@ -474,9 +474,9 @@ features:
 <div class="cta-section">
   <div class="cta-card">
     <div class="cta-title">现在就开始你的学习之旅</div>
-    <div class="cta-desc">从零基础到生产部署，1243 篇文档构成完整知识体系。不需要任何 AI 或编程的高级知识，我们会从零开始。</div>
+    <div class="cta-desc">从零基础到生产部署，1518 篇文档构成完整知识体系。28 个学习阶段、155 节系统课程、109 篇技术参考、52 篇附录速查，不需要任何 AI 或编程的高级知识，我们会从零开始。</div>
     <div class="cta-buttons">
-      <a href="/课程/00-课程总览与学习路径" class="cta-btn cta-btn-primary">📚 开始学习</a>
+      <a href="/课程总纲" class="cta-btn cta-btn-primary">🎓 查看课程总纲</a>
       <a href="/学习评估/04-学习行动计划" class="cta-btn cta-btn-secondary">📋 查看行动计划</a>
     </div>
   </div>
